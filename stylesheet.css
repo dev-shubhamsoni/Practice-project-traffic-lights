@@ -1,7 +1,87 @@
-html{
+html {
     box-sizing: border-box;
-}
-
-body{
+  }
+  
+  body {
     margin: 0;
-}
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .main-container {
+    height: 30em;
+    width: 80em;
+    background-color: white;
+    opacity: 0.80;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .counters {
+    /* margin-top: 50px; */
+    height: 6em;
+    width: 40em;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right:4em; 
+    padding-left: 4em;
+  }
+  
+  .time-counter {
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    margin: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+  }
+  
+  .traffic-light-container {
+    margin-top: 50px;
+    height: 16em;
+    width: 10em;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid 2px black;
+    
+  }
+  
+  .light {
+    height: 120px;
+    width: 60px;
+    
+    margin: 10px;
+    border-radius: 50%;
+    border: solid 4px black;
+  }
+  
+  h1{
+    font-size: 20px;
+  }
+
+
+  .red{
+    background-color: red;
+  }
+
+  .yellow{
+    background-color: yellow;
+  }
+
+  .green{
+    background-color: green;
+  }
